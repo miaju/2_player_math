@@ -2,6 +2,10 @@
 
 - players
   - lives
+  - turn
 - game
-  - questions
+  - players
   - score
+- problem
+  - answer
+  - question
