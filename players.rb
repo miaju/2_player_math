@@ -1,7 +1,8 @@
 class Player
-  attr_accessor :score, :turn
+  attr_accessor :score, :turn, :name
 
-  def initialize() 
+  def initialize(name) 
+    @name = name
     @score = 3
     @turn = false
   end
